@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+
+body{
+    background-color:bisque;
+    overflow-x: hidden;
+    margin-top: 180px;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 654px;
+  margin: 50px auto;
+  
+  
+}
+
+.productimage{
+    float: left;
+  height:500px;
+  width: 327px;
+  
+}
+
+.productimage img{
+    border-radius: 20px 0 0 20px;
+}
+
+.productinfo{
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius:  0 20px 20px 0px;
+    background-color:white;
+}
+
+.producttext{
+    height: 300px;
+    width: 327px;
+
+}
+
+.h1{
+    margin:0 0 0 38px;
+    padding-top:52px ;
+    font-size: 34px;
+    color: #474747;
+}
+
+.h2{
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: 'raleway',sans-serif;
+    font-weight: 400px;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+
+
+}
+
+.paragraph{
+    height: 125px;
+  margin: 0 0 0 38px;
+  font-family: 'Playfair Display', serif;
+  color: #8d8d8d;
+  line-height: 1.7em;
+  font-size: 18px;
+  font-weight: lighter;
+    
+}
+
+.product-price-button{
+    height: 50px;
+    width: 327px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.price-para{
+  display: inline-block;
+  position: absolute;
+  top: -13px;
+  height: 100px;
+  font-family: 'Suranna', serif;
+  margin: 0 0 0 38px;
+  font-size: 28px;
+  font-weight: lighter;
+  color: #474747;
+
+
+}
+
+
+
+button{
+    /* float:right; */
+    display: inline-block;
+    height: 50px;
+    width: 280px;
+    margin: 30px 10px 20px 20px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 12px;
+    font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #9cebd5;
+  cursor: pointer;
+  outline: none;
+}
+
+
+button:hover{
+    background-color: #79b0a1;
+
+}
+
+.striketext{
+    text-decoration: line-through;
+    display: inline-block;
+  position: absolute;
+  height: 100px;
+  top: -3px;
+  font-family: 'Suranna', serif;
+  margin: 0 0 0 105px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #474747;
+}
+
+.btn-img{
+    margin: 5px 5px 5px -20px;
+}
+
+.btn-description{
+    font-family: 'Raleway', sans-serif;
+    text-transform:uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
